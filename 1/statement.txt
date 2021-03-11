@@ -1,0 +1,28 @@
+										FITU
+	Titu is bored so he decided to play with two glasses infront of him glass A and Glass B.
+In this game he memorizes the amount of water in glass B and pours all the water in glass B from A.Then 
+he fills glass A with the memomorized amount of water. He repeats this procedure again and again. Assume
+that tha glasses has ifinite capacity and at the begining two glasses has same amount (b unit) of water 
+in them. You are given an integer n (how many times he repeated the procedure). You have to find the 
+amount of water in glass B after n times.
+
+Input:
+First line of input contains an integet t number of test cases and the following t lines contains two 
+integers n and b number of repitation and initial amoun of water in both glasses.
+0<t<=100000000,
+0<=n<=50,
+0<=b<=10000000.
+
+Output:
+Out put contains t lines in ith line (0<i<=t) there will be an integer showing the amount of water
+in B glass after nthe iopperation of i th test case.  
+
+Sample input:
+3
+2 4
+3 5
+4 1
+Sample output:
+12
+25
+8	

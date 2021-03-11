@@ -1,0 +1,27 @@
+									Limity war
+							
+	Ironman on his new quest travels from a point a to point b int a two dimensional space. The next 
+day the mad titan Thanos travels to his home at point d form point c in in the same two dimesional
+space. Because of his new power the point that Ironman traveld through became red coloured.Now if 
+Thanos finds out any red poin on his path he will distroy the universe.You can assume that both of 
+them traveld through a linear path. Your task is to find the faith of the universe.
+
+Input:
+First line of the in put will consist an integer t number of test cases.Next t line will consist eight
+integers ax,ay,bx,by,cx,cy,dx,dy cordinates of points a,b,c,d.
+
+Constrains:
+ 1<=t<300
+-1000000<=ax,ay,bx,by,cx,cy,dx,dy<=1000000
+
+Output:
+Output consists t lines each line will contain either "Doomed" if universe is destroyed or "Saved".
+
+Sample Input:
+2
+1 1 10 1 1 2 10 2
+10 0 0 10 0 0 10 10
+
+Sample Output:
+Saved
+Doomed
